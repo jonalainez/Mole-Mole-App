@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/molestyle.css">
+    <title>Login Mole Mole</title>
+</head>
+
+<body class="greenbg">
+    <div class="container">
+        <div class="col-12">
+            <div class="d-flex justify-content-center" style="padding: 20px ;">
+                <img src="/images/logo.png" alt="Mole Mole">
+            </div>
+        </div>
+
+        <div class="col-12 log-form-container">
+            <form action="main.htm">
+
+                <input type="text" class="log-input log-input-user" placeholder="User">
+                <input type="password" class="log-input log-input-pass" placeholder="Password">
+                <input type="submit" class="log-input log-input-btn" value="Login">
+
+                <p style="width: 100%; text-align: center; color: #fff;">or</p>
+
+                <a href="#" class="log-with log-facebook d-flex">
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M26 13.0794C26 5.85586 20.1797 0 13 0C5.82029 0 0 5.85586 0 13.0794C0 19.6077 4.75389 25.0188 10.9688 26V16.8602H7.66797V13.0794H10.9688V10.1979C10.9688 6.91985 12.9096 5.10916 15.879 5.10916C17.3009 5.10916 18.7891 5.36462 18.7891 5.36462V8.58339H17.1498C15.535 8.58339 15.0313 9.59168 15.0313 10.6271V13.0794H18.6367L18.0604 16.8602H15.0313V26C21.2461 25.0188 26 19.6077 26 13.0794Z" fill="#3F58A9"/>
+</svg> Login with Facebook</a>
+                <a href="#" class="log-with log-google d-flex">
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M25.7465 13.2995C25.7465 12.4158 25.6749 11.5273 25.522 10.6579H13.26V15.664H20.2819C19.9905 17.2785 19.0543 18.7068 17.6833 19.6144V22.8626H21.8726C24.3326 20.5984 25.7465 17.2546 25.7465 13.2995Z" fill="#4285F4"/>
+<path d="M13.26 26.0009C16.7662 26.0009 19.723 24.8497 21.8773 22.8626L17.6881 19.6143C16.5225 20.4073 15.0179 20.8563 13.2648 20.8563C9.87327 20.8563 6.99765 18.5682 5.96587 15.492H1.64288V18.8405C3.84975 23.2304 8.3447 26.0009 13.26 26.0009Z" fill="#34A853"/>
+<path d="M5.96109 15.492C5.41654 13.8774 5.41654 12.1291 5.96109 10.5146V7.16606H1.64289C-0.200949 10.8394 -0.200949 15.1672 1.64289 18.8405L5.96109 15.492Z" fill="#FBBC04"/>
+<path d="M13.26 5.14547C15.1134 5.1168 16.9047 5.81421 18.247 7.09439L21.9585 3.38283C19.6083 1.17596 16.4891 -0.0373382 13.26 0.000876055C8.3447 0.000876055 3.84975 2.77141 1.64288 7.16604L5.96109 10.5146C6.9881 7.43354 9.86849 5.14547 13.26 5.14547Z" fill="#EA4335"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg> Login with Google</a>
+
+                <a href="#" class="log-with log-apple d-flex">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22.773 22.773" style="enable-background:new 0 0 22.773 22.773;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M15.769,0c0.053,0,0.106,0,0.162,0c0.13,1.606-0.483,2.806-1.228,3.675c-0.731,0.863-1.732,1.7-3.351,1.573
+			c-0.108-1.583,0.506-2.694,1.25-3.561C13.292,0.879,14.557,0.16,15.769,0z"/>
+		<path d="M20.67,16.716c0,0.016,0,0.03,0,0.045c-0.455,1.378-1.104,2.559-1.896,3.655c-0.723,0.995-1.609,2.334-3.191,2.334
+			c-1.367,0-2.275-0.879-3.676-0.903c-1.482-0.024-2.297,0.735-3.652,0.926c-0.155,0-0.31,0-0.462,0
+			c-0.995-0.144-1.798-0.932-2.383-1.642c-1.725-2.098-3.058-4.808-3.306-8.276c0-0.34,0-0.679,0-1.019
+			c0.105-2.482,1.311-4.5,2.914-5.478c0.846-0.52,2.009-0.963,3.304-0.765c0.555,0.086,1.122,0.276,1.619,0.464
+			c0.471,0.181,1.06,0.502,1.618,0.485c0.378-0.011,0.754-0.208,1.135-0.347c1.116-0.403,2.21-0.865,3.652-0.648
+			c1.733,0.262,2.963,1.032,3.723,2.22c-1.466,0.933-2.625,2.339-2.427,4.74C17.818,14.688,19.086,15.964,20.67,16.716z"/>
+	</g>
+	
+</svg>Login with Apple</a>
+            </form>
+        </div>
+    </div>
+
+
+    <div id="footer ">
+        <div class="container position-absolute bottom-0 start-50 translate-middle-x">
+            <div class="row">
+                <div class="col-7">
+                    <a href="#" class="terms d-flex">Terms & Conditions</a>
+                </div>
+                <div class="col-5 d-flex justify-content-between align-items-center">
+                    <a href="#" class="foot-ico foot-ico-fb">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg>
+                    </a>
+                    <a href="#" class="foot-ico foot-ico-tw">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg>
+                    </a>
+                    <a href="#" class="foot-ico foot-ico-in">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+</svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
